@@ -436,15 +436,7 @@ span{
     .text-1{
         padding-top: 0;
     }
-    .text-1 h2::after{
-        content: '';
-        width: 100%;
-        height: 2px;
-        background: #daa520;
-        display: block;
-        margin: 0 auto;
-    }
-
+    
     .text-1 h2{
         font-size: 30px;
     }
@@ -723,6 +715,14 @@ form .button-area{
 }
 
 @media screen and (max-width: 700px) {
+    #con-title{
+        font-size: 30px;
+    }
+
+    .contact--head p{
+        font-size: 20px;
+    }
+
     .blocks .fa.fa-envelope.details, .blocks .fa.fa-map-marker.details, .blocks .fa.fa-mobile.details{
         width: 100%;
         text-align: center;
