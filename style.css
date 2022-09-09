@@ -16,7 +16,7 @@
 
 .line{
     width: 100%;
-    height: 20px;
+    height: 5px;
     background-color: #daa520;
 }
 
@@ -29,6 +29,7 @@
 .col-1-2{
     float: left;
     width: 50%;
+    /* height: 100%; */
 }
 
 .col-1-3{
@@ -72,8 +73,8 @@
 }
 
 .p1{
-    font-size: 200px;
-    line-height: 145px;
+    font-size: 160px;
+    line-height: 115px;
     
 }
 
@@ -119,7 +120,7 @@ span{
 
 /* Page Title*/
 #page-title h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #daa520;
 	text-align: center;
@@ -148,18 +149,18 @@ span{
     width:3px;
     background-color: #daa520;
     animation: blink 1s infinite;
-    height: 45px;
+    height: 40px;
 }
 
 #page-title a{
     display: block;
     color: #daa520;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #daa520;
+    border: 1px solid #daa520;
     transition: all 0.3s ease;
     margin: 0 auto;
     width: 20%;
@@ -226,11 +227,11 @@ span{
 }
 
 #edu-title span{
-    font-size: 20px;
+    font-size: 16.5px;
 }
 
 #header-title{
-    font-size: 40px;
+    font-size: 28px;
     color: #daa520;
     font-family: 'Poppins';
     margin-bottom: 30px;
@@ -248,10 +249,11 @@ span{
 
 
 #header--edu{
-    font-size: 30px;
+    font-size: 20px;
     color: #444444;
     margin-top: 30px;
 }
+
 
 @media screen and (max-width: 700px) {
     #header-title{
@@ -263,7 +265,7 @@ span{
     }
 
     #header--edu{
-        font-size: 20px;
+        font-size: 18px;
         color: #444444;
         margin-top: 30px;
     }
@@ -280,12 +282,12 @@ span{
     text-align: center;
 }
 
-#skill-title{
+/* #skill-title{
     font-size: 40px;
     color: #daa520;
     font-family: 'Poppins';
     margin-bottom: 30px;
-}
+} */
 
 #skill-title::after{
     content: '';
@@ -297,7 +299,7 @@ span{
 }
 
 .skills--head p{
-    font-size: 30px;
+    font-size: 22.5px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 20px;
@@ -309,14 +311,14 @@ span{
 
 .skills--info h3{
     color: #daa520;
-    font-size: 25px;
+    font-size: 17.5px;
     text-transform: uppercase;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .skills--info ul li{
     color: #444444;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 5px;
 }
@@ -333,15 +335,15 @@ span{
 
 .box{
     border: 1px solid #daa520;
-    height: 50vh;
-    padding: 10px 10px;
+    /* height: 50vh; */
+    padding: 80px 10px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
 @media screen and (max-width: 700px) {
-    #skill-title{
+    /* #skill-title{
         font-size: 30px;
-    }
+    } */
 
     .skills--head p{
         font-size: 20px;
@@ -349,6 +351,15 @@ span{
     .skills--info{
         flex-direction: column;
     }
+
+    .skills--info h3{
+        font-size: 22.5px;
+    }
+
+    .skills--info ul li{
+        font-size: 18.5px;
+    }
+
     .col-1-3{
         float: none;
         width: 100%;
@@ -356,7 +367,8 @@ span{
 
     .box{
         margin-bottom: 20px;
-        height: 50vh;
+        padding: 80px 10px;
+        /* height: 30vh; */
     }
 }
 
@@ -377,12 +389,12 @@ span{
     text-align: center;
 }
 
-#train-title{
+/* #train-title{
     font-size: 40px;
     color: #daa520;
     font-family: 'Poppins';
     margin-bottom: 30px;
-}
+} */
 
 #train-title::after{
     content: '';
@@ -394,7 +406,7 @@ span{
 }
 
 .train--head p{
-    font-size: 30px;
+    font-size: 22.5px;
     color: #444444;
     margin-bottom: 40px;
 }
@@ -420,6 +432,7 @@ span{
 .ccc2{
     display: flex;
     flex-direction: row-reverse;
+    
 }
 
 
@@ -438,8 +451,14 @@ span{
     }
 
     .text-1 h2{
-        font-size: 30px;
+        font-size: 22px;
+        margin-bottom: 0;
     }
+
+    .text-1 p{
+        font-size: 14.5px;
+    }
+    
     
     .ccc2{
         display: flex;
@@ -480,7 +499,7 @@ span{
 }
 
 .project--head p{
-    font-size: 30px;
+    font-size: 22.5px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 20px;
@@ -579,7 +598,7 @@ span{
 }
 
 .contact--head p{
-    font-size: 30px;
+    font-size: 22.5px;
     font-weight: 700;
     color: #444444;
     margin-bottom: 20px;
@@ -591,12 +610,22 @@ span{
     color: #444444;
 }
 
-.details{
-    color: #444444;
+.blocks i{
+    width: 30px;
 }
 
+.blocks{
+    color: #4c4c4c;
+    font-size: 16.5px;
+    font-weight: 600;
+}
+
+/* .details{
+    color: #444444;
+} */
+
 .fa-map-marker::before, .fa-mobile::before{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     color: #daa520;
     font-size: 20px;
 }
@@ -653,6 +682,7 @@ form .message textarea{
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .message textarea{
@@ -665,7 +695,7 @@ form .message textarea{
 }
 .field input:focus,
 .message textarea:focus{
-    padding-left: 47px;
+
     border: 2px solid #daa520;  
 }
 .field input:focus ~ i,
@@ -724,8 +754,8 @@ form .button-area{
         font-size: 20px;
     }
 
-    .blocks .fa.fa-envelope.details, .blocks .fa.fa-map-marker.details, .blocks .fa.fa-mobile.details{
-        width: 100%;
+    .blocks {
+        /* width: 100%; */
         text-align: center;
     }
     .blocks{
